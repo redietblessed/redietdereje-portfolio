@@ -1,0 +1,113 @@
+.whole-one{
+    background-color: #E2F6CA;
+    margin: 0;
+    text-align: center;
+}
+.top-container{
+    background-color:#9BE8D8;
+    position: relative;
+    padding: 100px;
+}
+.success{
+    position: absolute;
+    top: 20px;
+    
+    height: 100px;
+    align-items: center;
+}
+.title-text{
+    text-align: center;
+    
+}
+.title-text h1{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+
+}
+.title-text h2{
+    margin-top: 0px;
+    font-family: 'Shadows Into Light', cursive;
+
+
+}
+.profile{
+    background-color:#E2F6CA;
+    margin-top: 80px;
+    position: relative;
+}
+.profile-pic2{
+    position: absolute;
+    
+    height: 200px;
+    border-radius: 50%;
+    align: center;
+}
+@media(max-width:600px){
+    .profile-pic2{
+        position: absolute;
+       
+        height: 100px;
+        border-radius: 50%;
+        align: center;
+    }
+
+}
+.middle-container{
+    margin-top: 120px;
+}
+ol{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 380px 1fr 380px;
+    margin margin-top: 60px;
+    row-gap: 1rem;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.about-me{
+    margin: 0;
+    padding: 0;
+}
+.education{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 370px;
+
+}
+.skill-one{
+    height: 370;
+
+}
+.skill-pic{
+    height: 370;
+}
+.aboutme-part{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media(max-width:630px){
+    .cert{
+        margin-top: 200px;
+    }
+}
+.last-container{
+    background-color: #9BE8D8;
+    padding: 20px;
+}
+.footer-link{
+    padding-left: 20px;
+}
